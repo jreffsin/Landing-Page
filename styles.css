@@ -83,7 +83,7 @@ body {
 .gal_image {
     height: 150px;
     width: auto;
-    border: 2px solid #3882f6;
+    border: 2px solid #a2a2a2;
     border-radius: 12px;
 }
 
@@ -115,6 +115,46 @@ body {
     font-family: Tahoma, sans-serif;
     font-weight: 900;
 
+}
+
+.content4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+
+.c2a_box {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 25px 50px;
+    gap: 300px;
+    border-radius: 8px;
+}
+
+.c2a_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.c2a_title {
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    color: white;
+}
+
+.c2a_text {
+    color: #afb1b5;
+}
+
+.c2a_button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 6px;
 }
 
 .title_text {
