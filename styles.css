@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -171,7 +173,17 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 25px 0;
+}
 
+.footer_text {
+    color: #afb1b5;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
 }
 
 .top_links {
