@@ -94,6 +94,29 @@ body {
     text-align: center;
 }
 
+.content3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 100px 20vw 100px 20vw;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.attribution_text {
+    align-self: flex-end;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 900;
+
+}
+
 .title_text {
     color: white;
     font-size: 48px;
